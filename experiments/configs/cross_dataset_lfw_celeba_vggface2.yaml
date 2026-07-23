@@ -1,0 +1,11 @@
+datasets: ["LFW", "CelebA", "VGGFace2"]
+reference_dataset: "LFW"
+image_size: 224
+n_images_per_dataset: 500
+identity_extractor: "InceptionResnetV1 pretrained on VGGFace2"
+main_epsilon: 0.047058823529411764
+epsilon_list: [0.047058823529411764]
+steps: 35
+step_ratio: 0.125
+mask: "central facial region mask"
+seeds: [0, 1, 2]
