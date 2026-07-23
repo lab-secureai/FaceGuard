@@ -6,7 +6,7 @@
 
 Official implementation of **FaceGuard**, a proactive facial image protection framework that reduces identity transfer in deepfake face-swapping by applying bounded identity-space adversarial perturbations.
 
-> **Paper:** FaceGuard: Proactive Identity Perturbation for Protecting Facial Images Against Deepfake Face-Swapping (IEEE Conference Submission)
+> **Paper:** FaceGuard: Proactive Identity Perturbation for Protecting Facial Images Against Deepfake Face-Swapping
 
 ---
 
@@ -131,7 +131,7 @@ FaceGuard/
 # Installation
 
 ```bash
-git clone https://github.com/<username>/FaceGuard.git
+git clone https://github.com/lab-secureai/FaceGuard.git
 
 cd FaceGuard
 
@@ -197,8 +197,8 @@ If you find this work useful, please cite:
 ```bibtex
 @inproceedings{faceguard2026,
   title={FaceGuard: Proactive Identity Perturbation for Protecting Facial Images Against Deepfake Face-Swapping},
-  author={Your Name},
-  booktitle={IEEE Conference},
+  author={Hoang Phuc Dang, Anh Tu Tran},
+  booktitle={VCRIS},
   year={2026}
 }
 ```
